@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.image-box{
+    width: 800px;
+    height: 600px;
+    background-color: lightgray;
+    transition: background-image 1s ease;
+    background-repeat: no-repeat;
+}
+
+.left-arrow, .right-arrow{
+    margin: 0 20px;
+}
+.arrow_buttons{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 60px;
+}
