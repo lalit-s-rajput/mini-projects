@@ -1,0 +1,19 @@
+.single-grid-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.single-grid-block, .single-color-block{
+    width:120px;
+    height:120px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.color-pallete-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
