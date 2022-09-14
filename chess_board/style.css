@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.color-grid{
+    background-color: green;
+}
+.single-grid-element{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+.single-grid-element:nth-child(even){
+    background-color: black;
+}
